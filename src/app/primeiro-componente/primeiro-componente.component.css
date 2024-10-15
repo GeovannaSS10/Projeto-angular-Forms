@@ -1,15 +1,38 @@
-form{
+body{
+    background-color:#fad4fa;
+    
+}
+
+form {
     width: 500px;
     margin: 30px auto;
     text-align: center;
-
+    background-color: #fad4ff;
 }
 
-input{
-    margin-bottom: 10px;
+input {
+    margin-bottom: 20px; /* Aumenta o espaço entre os campos */
 }
 
-input[type="button"]{
+input[type="button"] {
     margin-left: 5px;
     margin-right: 5px;
+}
+
+/* Estilo para a tabela */
+.table {
+    width: 100%; /* Para ocupar a largura total do container */
+    border-collapse: collapse; /* Colapsa bordas */
+    margin-top: 20px; /* Espaço entre o formulário e a tabela */
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd; /* Borda nas células */
+    padding: 8px; /* Espaçamento interno nas células */
+    text-align: left; /* Alinhamento do texto */
+}
+
+.table th {
+    background-color: #f2f2f2; /* Cor de fundo para o cabeçalho */
 }
